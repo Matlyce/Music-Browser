@@ -1,2 +1,4 @@
 test*
 *.dat
+*.iss
+*.spec
