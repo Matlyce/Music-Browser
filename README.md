@@ -8,13 +8,13 @@ My own music browser that handle:
 1. Download the setup file (located in the latest release of the project) and run it.
 2. Proceed with the installer's instructions.
 
-<img src="https://github.com/Matlyce/Music-Browser/assets/85689655/dbeb2e08-9b08-4c48-8ce6-2570db325045" width="auto" height="auto">
+![Installation Image](https://github.com/matlyce/Music-Browser/blob/main/assets/installer_asset.png?raw=true)
 
 4. Enjoy! 🎆
 
 # Usage
 
-![image](https://github.com/Matlyce/Music-Browser/assets/85689655/72b3a66e-21fb-4cf6-a6e2-ffb4d7f09130)
+![Application Image](https://github.com/matlyce/Music-Browser/blob/main/assets/app_asset.png?raw=true)
 
 Choose the service you want to use from the navigation bar at the top of the app.
 
