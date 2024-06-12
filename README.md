@@ -1,26 +1,43 @@
-# Music Browser - V1.0
+# Music Browser - V2.1
 
-My own music browser that handle: 
--> YoutubeMusic, Spotify and Deezer at the same time!
+Welcome to Clear Music Browser, your personalized music streaming experience!
 
-# Installation
+## Features
 
-1. Download the setup file (located in the latest release of the project) and run it.
-2. Proceed with the installer's instructions.
+- Listen to YouTube Music, Deezer, and Spotify simultaneously on your desktop.
+- Customize your music sources with a simple settings interface.
 
-![Installation Image](https://github.com/matlyce/Music-Browser/blob/main/assets/installer_asset.png?raw=true)
+## Installation
 
-4. Enjoy! 🎆
+1. **Download**
+   - Get the setup file from the [latest release](https://github.com/matlyce/Music-Browser/releases).
+   
+2. **Install**
+   - Run the downloaded setup file and follow the installation instructions.
+   
+   ![Installation Image](https://github.com/matlyce/Music-Browser/blob/main/assets/installer_asset.png?raw=true)
 
-# Usage
+3. **Enjoy!**
+   - Launch Music Browser and start enjoying your favorite tunes!
+   
+   ![Application Image](https://github.com/matlyce/Music-Browser/blob/main/assets/app_asset.png?raw=true)
 
-![Application Image](https://github.com/matlyce/Music-Browser/blob/main/assets/app_asset.png?raw=true)
+## Usage
 
-Choose the service you want to use from the navigation bar at the top of the app.
+1. **Navigation**
+   - Use the navigation bar at the top to switch between YouTube Music, Deezer, and Spotify.
+   
+2. **Customization**
+   - Click on the settings icon to customize your music sources. Enable or disable services based on your preferences.
+   
+3. **Play Simultaneously**
+   - Stream music from multiple services concurrently, enhancing your listening experience.
 
-If you don't want to use a particular service, simply right-click on it and select "Disable"! 👍
+---
 
-
+### Notes:
+- Ensure you have a stable internet connection for uninterrupted streaming.
+- Feedback and contributions are welcome. Feel free to [contribute](https://github.com/matlyce/Music-Browser) to the project!
 
 <br>
 <h3>Social</h3>
