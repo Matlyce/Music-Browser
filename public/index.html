@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clear Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tabs">
+        <!-- YT Music -->
+        <div class="tab active" data-target-url="https://music.youtube.com">
+            <img class="tab-icon" src="">
+            <span class="tab-name">Youtube Music</span>
+        </div>
+        <!-- Spotify -->
+        <div class="tab" data-target-url="https://open.spotify.com">
+            <img class="tab-icon" src="">
+            <span class="tab-name">Spotify</span>
+        </div>
+        <!-- Deezer -->
+        <div class="tab" data-target-url="https://www.deezer.com/fr/">
+            <img class="tab-icon" src="">
+            <span class="tab-name">Deezer</span>
+        </div>
+
+        <div class="settings-tab" id="settings_button">
+            <img class="tab-icon bigger revert" src="assets/settings.svg">
+        </div>
+
+    </div>
+    <div class="content" id="container"></div>
+    <div class="settings-panel" id="panel">
+        <div id="toggler_container" class="panel-inner-container">
+        </div>
+        <div id="credits_container" class="panel-inner-container">
+            <p>Made with ❤️ by Matlyce</p>
+            <div class="social-container">
+                <div class="social-button redirect-element" data-redirect-url="https://www.linkedin.com/in/mathis-emaille">
+                    <img class="social-icon revert" src="assets/linkedin.svg" alt="LinkedIn">
+                </div>
+                <div class="social-button redirect-element" data-redirect-url="https://github.com/matlyce">
+                    <img class="social-icon revert reduced" src="assets/github.svg" alt="GitHub">
+                </div>
+                <div class="social-button redirect-element" data-redirect-url="https://mathis-emaille.fr/">
+                    <img class="social-icon revert reduced" src="assets/portfolio.svg" alt="Portfolio">
+                </div>
+            </div>
+            <div class="donate-button redirect-element" data-redirect-url="https://www.buymeacoffee.com/matlyce">
+                <img class="donate-icon revert" src="assets/donate.svg" alt="Donate">
+                <span>Donate</span>
+            </div>
+        </div>
+    </div>
+    <script src="loader.js"></script>
+    <script src="menus.js"></script>
+    <script src="redirect.js"></script>
+</body>
+
+</html>

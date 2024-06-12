@@ -1,0 +1,44 @@
+{
+  "name": "clearmusic",
+  "description": "My own music browser that handle: \r -> YoutubeMusic, Spotify and Deezer at the same time!",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "version": "2.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+  },
+  "build": {
+    "appId": "com.matlyce.clearmusic",
+    "productName": "Clear Music",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "*.js",
+      "assets/**/*",
+      "build/**/*",
+      "public/**/*",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "mac": {
+      "icon": "build/icon.ico"
+    },
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "linux": {
+      "icon": "build/icon.ico"
+    }
+  }
+}
