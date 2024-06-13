@@ -40,7 +40,11 @@ function createWindow() {
 
     ipcMain.on('save-settings', (event, hiddenMenus) => {
         console.log('save-settings event received');
-        const appData = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Preferences' : '/var/local');
+        var appData = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Preferences' : '/var/local');
+        if (process.platform == 'linux') {
+            appData = process.env.XDG_CONFIG_HOME || path.join(process.env.HOME, '.config');
+        }
+
         const filePath = path.join(appData, 'hiddenMenus.json');
 
         fs.writeFileSync(

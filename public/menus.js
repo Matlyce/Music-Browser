@@ -17,7 +17,10 @@ async function loadSettings() {
         console.log("Available Menus count: " + availableMenus.length);
         console.log("Actives Tabs count: " + activesTabs);
 
-        hiddenMenus = JSON.parse(hiddenMenusList);
+        let tmp = JSON.parse(hiddenMenusList);
+        if (!tmp)
+            return;
+        hiddenMenus = tmp;
         hiddenMenus.forEach(hiddenMenu => {
             const tab = document.querySelector(`.tab[data-target-url="${hiddenMenu}"]`);
             if (!tab)
